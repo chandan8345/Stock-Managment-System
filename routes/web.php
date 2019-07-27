@@ -1,63 +1,32 @@
 <?php
-//Login and Register
-//Login
-Route::get('/login','loginController@index');
-Route::post('/Varified','loginController@login');
-Route::get('/Logout','loginController@logout');
+//Products
+Route::get('/', [
+    'as' => '/',
+    'uses' => 'ExtraController@index'
+]);
 
-//DashBord
-Route::get('/','companyController@getCompany');
+//Stock
 
-//Product
-Route::get('/Product','productController@index');
-Route::post('/addProduct','productController@create');
+//Sales
 
-//stock
-Route::get('/Stock','stockController@index');
-Route::post('/StockSearch','stockController@search');
-Route::post('/ProductUpdate/{id}','stockController@update');
-Route::get('/ProductDelete/{id}','stockController@delete');
+//Purchase
 
-//Category
-Route::get('/Category','categoryController@index');
-Route::post('/CreateCategory','categoryController@createCategory');
-Route::post('/CreateBrand','categoryController@createBrand');
-Route::get('/CategoryDelete/{id}','categoryController@Delete');
-Route::get('/BrandDelete/{id}','categoryController@brandDelete');
-Route::post('/CategoryUpdate/{id}','categoryController@categoryUpdate');
-Route::post('/BrandUpdate/{id}','categoryController@brandUpdate');
+//API
 
-//purchase
-Route::get('/Purchase','purchaseController@index');
-Route::get('/managePurchase','managePurchaseController@index');
-Route::get('/search','purchaseController@search');
-Route::post('/Memo','purchaseController@memo');
-Route::post('/Invoice','purchaseController@invoice');
-Route::post('/searchMemo','managePurchaseController@search');
+//CustomerTransaction
 
-//sales
-Route::get('/Sales','salesController@index');
-Route::get('/manageSales','manageSalesController@index');
-Route::get('/psearch','salesController@search');
-Route::get('/cmemo','salesController@cmemo');
-Route::post('/cinvoice','salesController@cinvoice');
+//SupplierTransaction
 
-//Supplier
-Route::get('/Supplier','supplierController@index');
+//Dashboard
 
-//Customer
-Route::get('/Customer','customerController@index'); 
-
-//Transaction
-Route::get('/manageTransaction','manageTransactionController@index');
+//Expanse
 
 //Users
-Route::get('/Users','usersController@index');
 
-//Profile
-Route::get('/Profile','profileController@index');
+//ExtraController
 
-//Expense
-Route::get('/Expense','expenseController@index');
-Route::get('/ExpenseHead','expenseHeadController@index');
-Route::get('/ManageExpense','manageExpenseController@index');
+//Reports
+
+//CustomerMemo
+
+//SupplierMemo
