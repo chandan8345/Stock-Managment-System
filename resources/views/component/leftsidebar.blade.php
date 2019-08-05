@@ -25,25 +25,171 @@
             <!-- Menu -->
             <div class="menu">
                 <ul class="list">
-                    <li class="header">MAIN NAVIGATION</li>
+                    <li class="header">@yield('companyName')</li>
                     <li class="active">
-                        <a href="index.html">
+                        <a href="/">
                             <i class="material-icons">home</i>
                             <span>Home</span>
                         </a>
                     </li>
                     <li>
-                        <a href="pages/typography.html">
-                            <i class="material-icons">text_fields</i>
-                            <span>Typography</span>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">widgets</i>
+                            <span>Products</span>
                         </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="/product" style="font-style: bold;">
+                                    <span>New Products</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/manageProduct" style="font-style: bold;">
+                                    <span>Manage Products</span>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="pages/helper-classes.html">
-                            <i class="material-icons">layers</i>
-                            <span>Helper Classes</span>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">widgets</i>
+                            <span>Purchase</span>
                         </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="/purchase" style="font-style: bold;">
+                                    <span>New Purchase</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/managePurchase" style="font-style: bold;">
+                                    <span>Manage Purchase</span>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">widgets</i>
+                            <span>Sales</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="/sales" style="font-style: bold;">
+                                    <span>New Sales</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/manageSales" style="font-style: bold;">
+                                    <span>Manage Sales</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">widgets</i>
+                            <span>Stock</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="/stock" style="font-style: bold;">
+                                    <span>Stock Review</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">widgets</i>
+                            <span>Transaction</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="javascript:void(0);" style="font-style: bold;">
+                                    <span>Supplier</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" style="font-style: bold;">
+                                    <span>Customer</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <i class="material-icons">widgets</i>
+                                    <span>Expense</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="javascript:void(0);" style="font-style: bold;">
+                                            <span>New Expense</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                            <a href="javascript:void(0);" style="font-style: bold;">
+                                                <span>New Expense Head</span>
+                                            </a>
+                                        </li>
+                                    <li>
+                                        <a href="javascript:void(0);" style="font-style: bold;">
+                                            <span>Manage Expense</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-toggle">
+                                <i class="material-icons">widgets</i>
+                                <span>Others</span>
+                            </a>
+                            <ul class="ml-menu">
+                                <li>
+                                    <a href="javascript:void(0);" style="font-style: bold;">
+                                        <span>Brand</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" style="font-style: bold;">
+                                        <span>Category</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" style="font-style: bold;">
+                                        <span>Unit</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <i class="material-icons">widgets</i>
+                                    <span>Reports</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="javascript:void(0);" style="font-style: bold;">
+                                            <span>Products</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);" style="font-style: bold;">
+                                            <span>Purchase</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);" style="font-style: bold;">
+                                            <span>Sales</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                            <a href="javascript:void(0);" style="font-style: bold;">
+                                                <span>Expanse</span>
+                                            </a>
+                                        </li>
+                                </ul>
+                            </li>
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle">
                             <i class="material-icons">widgets</i>
@@ -342,7 +488,7 @@
                             <span>Changelogs</span>
                         </a>
                     </li>
-                    <li class="header">LABELS</li>
+                    <li class="header">BRANCH</li>
                     <li>
                         <a href="javascript:void(0);">
                             <i class="material-icons col-red">donut_large</i>

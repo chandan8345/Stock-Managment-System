@@ -8,6 +8,10 @@ Dashboard
 STOCK INVENTORY SYSTEM
 @endsection
 
+@section('companyName')
+ASA ENTERPRISE
+@endsection
+
 @section('mainsection')
 <section class="content">
         <div class="container-fluid">
