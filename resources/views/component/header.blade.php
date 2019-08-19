@@ -16,11 +16,21 @@
     <!-- Waves Effect Css -->
     <link href="plugins/node-waves/waves.css" rel="stylesheet" />
 
+    <!-- noUISlider Css -->
+    <link href="plugins/nouislider/nouislider.min.css" rel="stylesheet" />
+
+     <!-- JQuery DataTable Css -->
+     <link href="plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css" rel="stylesheet">
+
     <!-- Animation Css -->
     <link href="plugins/animate-css/animate.css" rel="stylesheet" />
 
     <!-- Morris Chart Css-->
     <link href="plugins/morrisjs/morris.css" rel="stylesheet" />
+
+    <!-- Bootstrap Select Css -->
+    <link href="plugins/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" />
+
 
     <!-- Custom Css -->
     <link href="css/style.css" rel="stylesheet">

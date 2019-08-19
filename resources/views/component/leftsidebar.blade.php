@@ -16,7 +16,7 @@
                             <li><a href="javascript:void(0);"><i class="material-icons">shopping_cart</i>Sales</a></li>
                             <li><a href="javascript:void(0);"><i class="material-icons">favorite</i>Likes</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="javascript:void(0);"><i class="material-icons">input</i>Sign Out</a></li>
+                            <li><a href="/"><i class="material-icons">input</i>Sign Out</a></li>
                         </ul>
                     </div>
                 </div>
@@ -190,6 +190,79 @@
                                         </li>
                                 </ul>
                             </li>
+                    <li>
+                    <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <i class="material-icons">widgets</i>
+                                    <span>Users</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="javascript:void(0);" style="font-style: bold;">
+                                            <span>New User</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);" style="font-style: bold;">
+                                            <span>Manage User</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);" style="font-style: bold;">
+                                            <span>Update Profile</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                   
+                    <li>
+                    <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <i class="material-icons">widgets</i>
+                                    <span>Company</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="javascript:void(0);" style="font-style: bold;">
+                                            <span>New Company</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);" style="font-style: bold;">
+                                            <span>Manage Company</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);" style="font-style: bold;">
+                                            <span>Update Company</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <i class="material-icons">widgets</i>
+                                    <span>Branch</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="javascript:void(0);" style="font-style: bold;">
+                                            <span>New Branch</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);" style="font-style: bold;">
+                                            <span>Manage Branch</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);" style="font-style: bold;">
+                                            <span>Update Branch</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                   
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle">
                             <i class="material-icons">widgets</i>
@@ -482,12 +555,14 @@
                             </li>
                         </ul>
                     </li>
+                    
                     <li>
                         <a href="pages/changelogs.html">
                             <i class="material-icons">update</i>
                             <span>Changelogs</span>
                         </a>
                     </li>
+                    
                     <li class="header">BRANCH</li>
                     <li>
                         <a href="javascript:void(0);">

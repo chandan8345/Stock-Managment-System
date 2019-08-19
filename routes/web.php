@@ -1,4 +1,14 @@
 <?php
+//Auth
+Route::get('/', [
+    'as' => '/',
+    'uses' => 'authController@login'
+]);
+Route::get('/register', [
+    'as' => '/',
+    'uses' => 'authController@register'
+]);
+
 //Product
 Route::get('/product', [
     'as' => '/',
@@ -8,11 +18,13 @@ Route::get('/manageProduct', [
     'as' => '/',
     'uses' => 'ProductController@manageProduct'
 ]);
+
 //Stock
 Route::get('/stock', [
     'as' => '/',
     'uses' => 'StockController@stock'
 ]);
+
 //Sales
 Route::get('/sales', [
     'as' => '/',
@@ -44,7 +56,7 @@ Route::get('/supplier', [
     'uses' => 'SupplierTransactionController@supplier'
 ]);
 //Dashboard
-Route::get('/', [
+Route::get('/dashboard', [
     'as' => '/',
     'uses' => 'DashboardController@index'
 ]);
@@ -68,15 +80,19 @@ Route::get('/manageExpanse', [
 //Reports
 Route::get('/productReport', [
     'as' => '/',
-    'uses' => 'ReportsController@supplierReport'
+    'uses' => 'ReportsController@productReport'
 ]);
 Route::get('/purchaseReport', [
     'as' => '/',
-    'uses' => 'ReportsController@supplierReport'
+    'uses' => 'ReportsController@purchaseReport'
 ]);
-Route::get('/Report', [
+Route::get('/salesReport', [
     'as' => '/',
-    'uses' => 'ReportsController@supplierReport'
+    'uses' => 'ReportsController@salesReport'
+]);
+Route::get('/expenseReport', [
+    'as' => '/',
+    'uses' => 'ReportsController@expenseReport'
 ]);
 //CustomerMemo
 

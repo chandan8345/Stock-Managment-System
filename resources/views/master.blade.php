@@ -24,10 +24,9 @@
         @include('component.rightsidebar')
         <!-- #END# Right Sidebar -->
     </section>
-    
     @yield('mainsection')
-
     @include('component.js')
+
 
 </body>
 
