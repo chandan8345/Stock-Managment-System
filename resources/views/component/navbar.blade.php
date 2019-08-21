@@ -8,8 +8,8 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Call Search -->
-                    <li><a href="/purchase" class="js-search" data-close="true"><i class="material-icons">add_shopping_cart</i></a></li>
-                    <li><a href="/sales" class="js-search" data-close="true"><i class="material-icons">local_mall</i></a></li>
+                    <li><a href="/purchase" class="js-search" data-close="true"  data-toggle="tooltip" data-placement="top" title="Purchase products"><i class="material-icons">add_shopping_cart</i></a></li>
+                    <li><a href="/sales" class="js-search" data-close="true"  data-toggle="tooltip" data-placement="top" title="Sales products"><i class="material-icons">local_mall</i></a></li>
                     <!-- #END# Call Search -->
                     <!-- Notifications -->
                     <li class="dropdown">

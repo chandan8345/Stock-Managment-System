@@ -12,15 +12,15 @@ STOCK INVENTORY SYSTEM
 ASA ENTERPRISE
 @endsection
 
+@section('path1')
+Product
+@endsection
+
+@section('path2')
+New Products
+@endsection
+
 @section('mainsection')
-<section class="content">
-        <div class="container-fluid">
-                <div class="block-header">
-                        <div class="alert alert-warning alert-dismissible" role="alert" hidden>
-                                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                Lorem ipsum dolor sit amet, id fugit tollit pro, illud nostrud aliquando ad est, quo esse dolorum id
-                            </div>
-                    </div>
 <!-- Basic Validation -->
 <div class="row clearfix">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -96,6 +96,4 @@ ASA ENTERPRISE
                     </div>
                 </div>
             </div>
-</div>
-<section>
 @endsection
