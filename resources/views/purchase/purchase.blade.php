@@ -95,10 +95,10 @@ New Purchase
                             <tr>
                                 <th>#</th>
                                 <th>PRODUCT NAME</th>
+                                <th>CATEGORY</th>
                                 <th>QUANTITY</th>
                                 <th>PURCHASE RATE</th>
                                 <th>TOTAL AMOUNT</th>
-                                <th>CATEGORY</th>
                                 <th>ACTION</th>
                             </tr>
                         </thead>

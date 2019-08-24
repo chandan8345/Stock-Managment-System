@@ -102,20 +102,39 @@
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle">
                             <i class="material-icons">widgets</i>
-                            <span>Transaction</span>
+                            <span>Supplier Payment</span>
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="javascript:void(0);" style="font-style: bold;">
-                                    <span>Supplier</span>
+                                <a href="/supplierTransaction" style="font-style: bold;">
+                                    <span>Due Payment</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="javascript:void(0);" style="font-style: bold;">
-                                    <span>Customer</span>
+                                <a href="/supplierManageTransaction" style="font-style: bold;">
+                                    <span>Manage Payment</span>
                                 </a>
                             </li>
                         </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">widgets</i>
+                            <span>Customer Payment</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="/cutomerTransaction" style="font-style: bold;">
+                                    <span>Due Payment</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/customerManageTransaction" style="font-style: bold;">
+                                    <span>Manage Payment</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
                         <li>
                                 <a href="javascript:void(0);" class="menu-toggle">
                                     <i class="material-icons">widgets</i>

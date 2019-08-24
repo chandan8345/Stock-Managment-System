@@ -32,35 +32,11 @@ Manage Purchase
                                 <div class="body">
                                     <form>
                                         <div class="row clearfix">
-                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                                <div class="form-group">
-                                                        <select class="form-control show-tick" required>
-                                                                <option value="">-- Select Category --</option>
-                                                                <option value="10">Owner</option>
-                                                                <option value="20">Admin</option>
-                                                                <option value="30">Staff</option>
-                                                                <option value="40">Customer</option>
-                                                                <option value="50">Supplier</option>
-                                                           </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                                    <div class="form-group">
-                                                            <select class="form-control show-tick" required>
-                                                                    <option value="">-- Select Brand --</option>
-                                                                    <option value="10">Owner</option>
-                                                                    <option value="20">Admin</option>
-                                                                    <option value="30">Staff</option>
-                                                                    <option value="40">Customer</option>
-                                                                    <option value="50">Supplier</option>
-                                                               </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                                                     <div class="form-group form-float">
                                                         <div class="form-line">
                                                             <input type="text" class="form-control" name="name" required>
-                                                            <label class="form-label">Min Rate</label>
+                                                            <label class="form-label">Memo No</label>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -68,7 +44,15 @@ Manage Purchase
                                                     <div class="form-group form-float">
                                                         <div class="form-line">
                                                             <input type="text" class="form-control" name="name" required>
-                                                            <label class="form-label">Max Rate</label>
+                                                            <label class="form-label">Purchace Date From</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                                    <div class="form-group form-float">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" name="name" required>
+                                                            <label class="form-label">Purchase Date To</label>
                                                         </div>
                                                     </div>
                                                 </div>

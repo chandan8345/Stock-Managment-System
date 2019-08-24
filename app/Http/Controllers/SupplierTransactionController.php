@@ -4,12 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class CustomerTransactionController extends Controller
+class SupplierTransactionController extends Controller
 {
     public function index(){
-        return view('transaction.customer');
+        return view('transaction.supplier');
     }
     public function manageTransaction(){
-        return view('transaction.manageCustomer');
+        return view('transaction.manageSupplier');
     }
 }

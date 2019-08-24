@@ -56,7 +56,7 @@ New SaleS
                                 <div class="col-md-2">
                                     <div class="form-group">
                                         <div class="form-line">
-                                            <input type="number" class="form-control" placeholder="Purchase Rate">
+                                            <input type="number" class="form-control" placeholder="Per Rate">
                                         </div>
                                     </div>
                                 </div>
@@ -95,10 +95,10 @@ New SaleS
                             <tr>
                                 <th>#</th>
                                 <th>PRODUCT NAME</th>
+                                <th>CATEGORY</th>
                                 <th>QUANTITY</th>
                                 <th>PURCHASE RATE</th>
                                 <th>TOTAL AMOUNT</th>
-                                <th>CATEGORY</th>
                                 <th>ACTION</th>
                             </tr>
                         </thead>

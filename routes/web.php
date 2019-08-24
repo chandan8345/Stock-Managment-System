@@ -46,15 +46,25 @@ Route::get('/managePurchase', [
 //API
 
 //CustomerTransaction
-Route::get('/customer', [
+Route::get('/cutomerTransaction', [
     'as' => '/',
-    'uses' => 'CustomerTransactionController@customer'
+    'uses' => 'CustomerTransactionController@index'
 ]);
+Route::get('/customerManageTransaction', [
+    'as' => '/',
+    'uses' => 'CustomerTransactionController@manageTransaction'
+]);
+
 //SupplierTransaction
-Route::get('/supplier', [
+Route::get('/supplierTransaction', [
     'as' => '/',
-    'uses' => 'SupplierTransactionController@supplier'
+    'uses' => 'SupplierTransactionController@index'
 ]);
+Route::get('/supplierManageTransaction', [
+    'as' => '/',
+    'uses' => 'SupplierTransactionController@manageTransaction'
+]);
+
 //Dashboard
 Route::get('/dashboard', [
     'as' => '/',
@@ -94,6 +104,3 @@ Route::get('/expenseReport', [
     'as' => '/',
     'uses' => 'ReportsController@expenseReport'
 ]);
-//CustomerMemo
-
-//SupplierMemo
