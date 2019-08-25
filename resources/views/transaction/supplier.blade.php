@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('title')
-Supplier Payment
+Dues Payment
 @endsection
 
 @section('appname')
@@ -13,11 +13,11 @@ ASA ENTERPRISE
 @endsection
 
 @section('path1')
-Supplier Payment
+Supplier
 @endsection
 
 @section('path2')
-Due Payment
+Dues Payment
 @endsection
 
 @section('mainsection')
@@ -34,58 +34,33 @@ Due Payment
                                 <div class="form-group form-float">
                                     <div class="form-line">
                                         <input type="text" class="form-control" name="name" required>
-                                        <label class="form-label">Name of Product</label>
+                                        <label class="form-label">Name of Customer</label>
                                     </div>
                                 </div>
                                 <div class="form-group form-float">
                                     <div class="form-line">
-                                    <select class="form-control show-tick" required>
-                                        <option value="">-- Select Category --</option>
-                                        <option value="10">Owner</option>
-                                        <option value="20">Admin</option>
-                                        <option value="30">Staff</option>
-                                        <option value="40">Customer</option>
-                                        <option value="50">Supplier</option>
-                                   </select>
-                                        <label class="form-label">Category</label>
-                                    </div>
-                                </div>
-                                <div class="form-group form-float">
-                                    <div class="form-line">
-                                    <select class="form-control show-tick" required>
-                                        <option value="">-- Select Brand --</option>
-                                        <option value="10">Owner</option>
-                                        <option value="20">Admin</option>
-                                        <option value="30">Staff</option>
-                                        <option value="40">Customer</option>
-                                        <option value="50">Supplier</option>
-                                   </select>
-                                    </div>
-                                </div>
-                                <div class="form-group form-float">
-                                    <div class="form-line">
-                                    <select class="form-control show-tick" required>
-                                        <option value="">-- Select Unit --</option>
-                                        <option value="10">Pcs</option>
-                                        <option value="20">Box</option>
-                                        <option value="30">Packet</option>
-                                        <option value="40">Dozzen</option>
-                                   </select>
+                                        <input type="text" class="form-control" name="name" required>
+                                        <label class="form-label">Customer ID</label>
                                     </div>
                                 </div>
                                 <div class="form-group form-float">
                                         <div class="form-line">
                                             <input type="number" class="form-control" name="name" required>
-                                            <label class="form-label">Purchase Rate</label>
+                                            <label class="form-label">Paid Amount</label>
                                         </div>
                                 </div>
                                 <div class="form-group form-float">
                                         <div class="form-line">
                                             <input type="number" class="form-control" name="name" required>
-                                            <label class="form-label">Sales Rate</label>
+                                            <label class="form-label">Last Dues</label>
                                         </div>
                                 </div>
-
+                                <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="number" class="form-control" name="name" required>
+                                            <label class="form-label">Balance</label>
+                                        </div>
+                                </div>
                                 <div class="form-group">
                                     <input type="checkbox" id="checkbox" name="checkbox">
                                     <label for="checkbox">I have read and accept the terms</label>

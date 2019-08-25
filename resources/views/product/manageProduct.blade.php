@@ -17,7 +17,7 @@ Product
 @endsection
 
 @section('path2')
-Manage Products
+Stock Review
 @endsection
 
 @section('mainsection')
@@ -26,7 +26,7 @@ Manage Products
                         <div class="card">
                                 <div class="header">
                                     <h2>
-                                        MANAGE PRODUCT
+                                        STOCK REVIEW
                                     </h2>
                                 </div>
                                 <div class="body">

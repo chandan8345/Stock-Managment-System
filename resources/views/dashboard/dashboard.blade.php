@@ -12,12 +12,16 @@ STOCK INVENTORY SYSTEM
 ASA ENTERPRISE
 @endsection
 
+@section('path1')
+Home
+@endsection
+
+@section('path2')
+Dashboard
+@endsection
+
 @section('mainsection')
-<section class="content">
-        <div class="container-fluid">
-            <div class="block-header">
-                <h2>DASHBOARD</h2>
-            </div>
+
 
             <!-- Widgets -->
             <div class="row clearfix">

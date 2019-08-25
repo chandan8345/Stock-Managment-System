@@ -14,15 +14,9 @@ Route::get('/product', [
     'as' => '/',
     'uses' => 'ProductController@product'
 ]);
-Route::get('/manageProduct', [
+Route::get('/stockReview', [
     'as' => '/',
     'uses' => 'ProductController@manageProduct'
-]);
-
-//Stock
-Route::get('/stock', [
-    'as' => '/',
-    'uses' => 'StockController@stock'
 ]);
 
 //Sales

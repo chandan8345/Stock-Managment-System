@@ -27,7 +27,7 @@
                 <ul class="list">
                     <li class="header">@yield('companyName')</li>
                     <li class="active">
-                        <a href="/">
+                        <a href="/dashboard">
                             <i class="material-icons">home</i>
                             <span>Home</span>
                         </a>
@@ -44,8 +44,8 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="/manageProduct" style="font-style: bold;">
-                                    <span>Manage Products</span>
+                                <a href="/stockReview" style="font-style: bold;">
+                                    <span>Stock Review</span>
                                 </a>
                             </li>
                         </ul>
@@ -89,20 +89,7 @@
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle">
                             <i class="material-icons">widgets</i>
-                            <span>Stock</span>
-                        </a>
-                        <ul class="ml-menu">
-                            <li>
-                                <a href="/stock" style="font-style: bold;">
-                                    <span>Stock Review</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);" class="menu-toggle">
-                            <i class="material-icons">widgets</i>
-                            <span>Supplier Payment</span>
+                            <span>Supplier</span>
                         </a>
                         <ul class="ml-menu">
                             <li>
@@ -120,17 +107,17 @@
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle">
                             <i class="material-icons">widgets</i>
-                            <span>Customer Payment</span>
+                            <span>Customer</span>
                         </a>
                         <ul class="ml-menu">
                             <li>
                                 <a href="/cutomerTransaction" style="font-style: bold;">
-                                    <span>Due Payment</span>
+                                    <span>Due Collection</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="/customerManageTransaction" style="font-style: bold;">
-                                    <span>Manage Payment</span>
+                                    <span>Manage Collection</span>
                                 </a>
                             </li>
                         </ul>
